@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 24cf66cf5f5210f4c846cab1f9c3d770
+guid: f306dae70bffffc4180cdacd1735a07a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -33,11 +33,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: MediumBeast
-      takeName: Armature|ArmatureAction.006
-      internalID: -8718967029479517697
+      name: SmallFish
+      takeName: Armature|ArmatureAction.001
+      internalID: -1422011007694221501
       firstFrame: 0
-      lastFrame: 78
+      lastFrame: 23
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -120,7 +120,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: Armature
+    rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
@@ -128,7 +128,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
