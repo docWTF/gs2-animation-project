@@ -269,6 +269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2995494219400780857}
   - component: {fileID: 7505447329571215196}
+  - component: {fileID: 4530424105675036460}
   m_Layer: 0
   m_Name: AlienFish1
   m_TagString: Untagged
@@ -309,6 +310,27 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!135 &4530424105675036460
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3025681413797838443}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 4
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3779210225776336263
 GameObject:
   m_ObjectHideFlags: 0
