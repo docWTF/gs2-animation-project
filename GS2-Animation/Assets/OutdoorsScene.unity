@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 14936.557, g: 6865.79, b: 1936.2317, a: 1}
+  m_IndirectSpecularColor: {r: 14941.604, g: 6868.2666, b: 1936.0256, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1442,13 +1442,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 2086425875}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 380eca90cfa7a4643ba65dbb8fb4ae64, type: 3}
+  m_Script: {fileID: 11500000, guid: dd901d436933b484b824d942f356f3fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 0}
   playerSpeed: 2
-  rotationSpeed: 7
+  crouchSpeed: 1
+  crouchMoveHeight: 1.5
+  gravityValue: -9.81
   animationSmoothTime: 0.1
   walkingSound: {fileID: 0}
+  isCrouching: 0
+  originalHeight: 0
 --- !u!114 &2086425879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1461,7 +1466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: f801dfbcc74876d44aaba5e1e18f3c21,
+  m_Actions: {fileID: -944628639613478452, guid: 702260353643fdd47ba91a0078b7ef84,
     type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
