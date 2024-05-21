@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 15297.369, g: 7070.6143, b: 1981.4084, a: 1}
+  m_IndirectSpecularColor: {r: 15323.564, g: 7086.329, b: 1987.8167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &8338667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,7 +160,7 @@ MonoBehaviour:
   migrationFrequency: 0.1
   posChangeFrequency: 0.5
   smoothChFrequency: 0.5
-  birdPref: {fileID: 2243625476745605332, guid: 0bc84149fdc9cf34f860fd7c15159b2c,
+  birdPref: {fileID: 8161516220426551260, guid: f8349945858ecb341810de482415b971,
     type: 3}
   birdsNum: 3
   birdSpeed: 5
@@ -772,7 +772,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &519091310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -793,7 +793,7 @@ MonoBehaviour:
   migrationFrequency: 0.1
   posChangeFrequency: 0.5
   smoothChFrequency: 0.5
-  birdPref: {fileID: 3025681413797838443, guid: 976fb7776ee58e14eb7933d27e8e1075,
+  birdPref: {fileID: 3849608663064385714, guid: 976fb7776ee58e14eb7933d27e8e1075,
     type: 3}
   birdsNum: 150
   birdSpeed: 2
