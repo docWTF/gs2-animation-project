@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public CharacterController controller;
     private Vector3 playerVelocity;
     private bool groundedPlayer;
-    private Transform cameraTransform;
+    public Transform cameraTransform;
     private Vector3 originalCenter;
 
     [SerializeField] private float playerSpeed = 2.0f;
@@ -44,11 +44,12 @@ public class PlayerController : MonoBehaviour
     public float originalHeight;
     private Vector3 originalFeetPosition;
 
+    
+
     private void Awake()
     {
         controller = GetComponent<CharacterController>();
         playerInput = GetComponent<PlayerInput>();
-        cameraTransform = Camera.main.transform;
 
         moveAction = playerInput.actions["Move"];
         jumpAction = playerInput.actions["Jump"];

@@ -469,7 +469,7 @@ MonoBehaviour:
       m_RotationOrder: 4
   scatteringTint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 0.82385063, b: 0, a: 1}
+    m_Value: {r: 0.9056604, g: 0.74583805, b: 0, a: 1}
   powderEffectIntensity:
     m_OverrideState: 0
     m_Value: 0.25
