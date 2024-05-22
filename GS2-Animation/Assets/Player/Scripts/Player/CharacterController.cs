@@ -15,9 +15,9 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private float playerSpeed = 2.0f;
     [SerializeField] private float crouchSpeed = 1.0f;
-    [SerializeField] private float crouchMoveHeight = 1.5f;
+    [SerializeField] private float crouchMoveHeight = 7.5f;
 
-    private float jumpHeight = 1.0f;
+    private float jumpHeight = 1.5f;
     [SerializeField]
     private float gravityValue = -9.81f;
     //[SerializeField] private float rotationSpeed = 7.0f;
@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     int moveXAnimationParameterId;
     int moveYAnimationParameterId;
+    int jumpAnimationParameterId;
 
     private AudioSource audioSource;
     public AudioClip walkingSound;
@@ -64,6 +65,7 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         moveXAnimationParameterId = Animator.StringToHash("X_Velo");
         moveYAnimationParameterId = Animator.StringToHash("Y_Velo");
+        jumpAnimationParameterId = Animator.StringToHash("IsJumping");
         originalCenter = controller.center;
 
         //SFX
@@ -97,7 +99,7 @@ public class PlayerController : MonoBehaviour
             {
                 // Crouch move
                 controller.height = crouchMoveHeight;
-                Vector3 updateCenter = newCenter * 1.5f;
+                Vector3 updateCenter = newCenter * 1.2f;
                 controller.center = updateCenter;
             }
             else
@@ -127,6 +129,7 @@ public class PlayerController : MonoBehaviour
         {
             playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
             Debug.Log("Jump activated!");
+            animator.SetTrigger("IsJumping");
         }
 
         playerVelocity.y += gravityValue * Time.deltaTime;
